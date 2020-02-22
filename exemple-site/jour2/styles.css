@@ -1,0 +1,55 @@
+
+html {
+    color: whitesmoke;
+}
+
+body {
+    background-color: black;
+    font-size: 16px;
+    font-family: 'Crimson Text', cursive;
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    color: orangered;
+}
+
+/* For ALL 'a' in the page.*/
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Only for 'a' under nav*/
+nav a {
+    color: orangered;
+}
+
+div.content {
+    width: 60%;
+    margin: auto; /* This 'center' the content in the middle of the screen. */
+    padding: 1em;
+    background-color: #2b2c2e;
+    background-image: url("./assets/images/itl.cat_attila-wallpaper_1500777.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/* Only for 'a' under #groupes */
+#groupes a {
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+    transition: font-size 150ms;
+}
+
+#groupes a:hover {
+    font-size: 2em;
+    transition: font-size 300ms;
+}
+
+#disques table {
+    width: 100%;
+}

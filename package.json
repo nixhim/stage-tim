@@ -1,0 +1,21 @@
+{
+  "name": "stage-tim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "presentation": "reveal-md KickOff.md",
+    "server" : "http-server ./exemple-site/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/snichele/stage-tim/src/master/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.1",
+    "reveal-md": "^3.4.7"
+  }
+}
