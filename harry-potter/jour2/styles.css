@@ -34,3 +34,15 @@ div.content {
  a {
   color: cyan;
 }
+
+section#Introduction h2 {
+  color: red;
+}
+
+section#Baguettes h2 {
+  color: gold;
+}
+
+section#Livre_et_films h2 {
+  color: silver;
+}
