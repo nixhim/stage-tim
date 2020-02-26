@@ -1,4 +1,12 @@
 
-nav a {
+nav a.toto {
   color: red;
+}
+
+nav a.genius {
+  color: gold;
+}
+
+nav a.TAGUEUL {
+  color: silver;
 }
