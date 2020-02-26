@@ -1,4 +1,8 @@
 
+body {
+  font-family: "comic sans ms";
+}
+
 nav a.toto {
   color: red;
 }
@@ -9,4 +13,8 @@ nav a.genius {
 
 nav a.TAGUEUL {
   color: silver;
+}
+
+section#Introduction {
+  background-image: u;
 }
