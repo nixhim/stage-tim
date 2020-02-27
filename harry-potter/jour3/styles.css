@@ -1,0 +1,52 @@
+
+body {
+  font-family: "comic sans ms";
+  background-image: url("assets/deathly hallows website2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+nav a.toto {
+  color: red;
+}
+
+nav a.genius {
+  color: gold;
+}
+
+nav a.TAGUEUL {
+  color: silver;
+}
+
+section#Introduction {
+  background-image: u;
+}
+
+div.content {
+    width: 40%;
+    margin: auto; /* This 'center' the content in the middle of the screen. */
+    padding: 1em;
+    background-color: #2b2c2e;
+}
+
+ a {
+  color: cyan;
+}
+
+section#Introduction h2 {
+  color: red;
+}
+
+section#Baguettes h2 {
+  color: gold;
+}
+
+section#Livre_et_films h2 {
+  color: silver;
+}
+
+strong {
+  color: springgreen;
+}
