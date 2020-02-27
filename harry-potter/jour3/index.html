@@ -7,24 +7,25 @@ https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-av
   -->
 
 <head>
-    <meta charset="UTF-8">
-    <title>Collection de baguette et ; livre/Film Harry Potter</title>
-    <link rel="stylesheet" href="styles.css"/>
-    <link rel="icon" type="image/png" href="favicon.png" />
-    <script type="text/javascript" src="script.js"></script>
+	<meta charset="UTF-8">
+	<title>Collection de baguette et ; livre/Film Harry Potter</title>
+	<link rel="stylesheet" href="styles.css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<script type="text/javascript" src="script.js">
+	</script>
 </head>
 
 <body>
-<div class="content">
+	<div class="content">
 
-    <header>
-        <h1>Collection de baguette et ; livre/Film Harry Potter</h1>
-        <nav>
-            <a class="toto" href="#Introduction">Introduction</a> |
-            <a class="genius" href="#Baguettes">Les Baguettes</a> |
-            <a class="TAGUEUL" href="#Livre_et_films">Livres et Films</a> |
-        </nav>
-        <button onclick="DireAurevoir()">cliquez sur moi</button>
+		<header>
+			<h1>Collection de baguette et ; livre/Film Harry Potter</h1>
+			<nav>
+				<a class="toto" href="#Introduction">Introduction</a> |
+				<a class="genius" href="#Baguettes">Les Baguettes</a> |
+				<a class="TAGUEUL" href="#Livre_et_films">Livres et Films</a> |
+			</nav>
+			<button onclick="DireAurevoir()">cliquez sur moi</button>
     </header>
 
     <section id="Introduction">
@@ -41,8 +42,17 @@ https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-av
         <ol>
             <li>
                 <a href="https://wizardingworld.warnerbros.fr/store/baguette-de-sureau-baguette-magique-gellert-grindelwald.html"
-                   target="_blank">
+                   target="_blank"
+                   onmouseover="showImage('baguette-1')"
+                   onmouseout="hideImage('baguette-1')"
+                   >
                     Baguette de Sureau version Grindelwald (Check).</a>
+                    <img  id="baguette-1" 
+                          src="assets/80de43b76ff20e33ca11c4c64a83621f.webp" 
+                          onmouseover="showImage('baguette-1')"
+                          onmouseout="hideImage('baguette-1')"
+                    />
+
             </li>
             <li>
                 <a href="https://wizardingworld.warnerbros.fr/store/baguette-magique-de-voldemort-avec-boite-ollivander.html"

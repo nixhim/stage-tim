@@ -62,3 +62,8 @@ a:hover {
     font-size: 2em;
     transition: font-size 300ms;
 }
+
+li img {
+  width : 50%;
+  display : none;
+}
