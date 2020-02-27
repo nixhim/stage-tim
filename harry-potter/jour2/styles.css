@@ -20,19 +20,11 @@ nav a.TAGUEUL {
   color: silver;
 }
 
-section#Introduction {
-  background-image: u;
-}
-
 div.content {
     width: 40%;
     margin: auto; /* This 'center' the content in the middle of the screen. */
     padding: 1em;
     background-color: #2b2c2e;
-}
-
- a {
-  color: cyan;
 }
 
 section#Introduction h2 {
@@ -49,4 +41,16 @@ section#Livre_et_films h2 {
 
 strong {
   color: springgreen;
+}
+
+a {
+    color: cyan;
+    font-weight: bold;
+    text-decoration: none;
+    transition: font-size 150ms;
+}
+
+a:hover {
+    font-size: 2em;
+    transition: font-size 300ms;
 }

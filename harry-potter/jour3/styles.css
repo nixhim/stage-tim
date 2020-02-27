@@ -50,3 +50,15 @@ section#Livre_et_films h2 {
 strong {
   color: springgreen;
 }
+
+a {
+    color: cyan;
+    font-weight: bold;
+    text-decoration: none;
+    transition: font-size 150ms;
+}
+
+a:hover {
+    font-size: 2em;
+    transition: font-size 300ms;
+}
